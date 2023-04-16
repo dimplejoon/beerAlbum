@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/yebisu"
+        android:src="@drawable/yebisu"
+        android:layout_height="120dp"
+        android:layout_width="120dp"/>
+
+    <ImageView
+        android:id="@+id/newcastle"
+        android:src="@drawable/newcastle"
+        android:layout_height="120dp"
+        android:layout_width="120dp"/>
+
+    <ImageView
+        android:id="@+id/santory"
+        android:src="@drawable/santory"
+        android:layout_height="120dp"
+        android:layout_width="120dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/kirin"
+            android:src="@drawable/kirin"
+            android:layout_height="120dp"
+            android:layout_width="120dp"/>
+
+        <ImageView
+            android:id="@+id/paulaner"
+            android:src="@drawable/paulaner"
+            android:layout_height="120dp"
+            android:layout_width="120dp"/>
+
+        <ImageView
+            android:id="@+id/becks"
+            android:src="@drawable/becks"
+            android:layout_height="120dp"
+            android:layout_width="120dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/duvel"
+            android:src="@drawable/duvel"
+            android:layout_height="120dp"
+            android:layout_width="120dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
